@@ -24,7 +24,7 @@ const Carousel = () => {
         <div>
           <img className="imgSlick" src="about-bg.jpg" alt="aboutbg" />
           <div className="thumbnail">
-            <p>WE DON'T HAVE THE BEST BUT WE HAVE THE</p>
+            <p>WE DON&apos;T HAVE THE BEST BUT WE HAVE THE</p>
             <p>GREATEST TEAM</p>
           </div>
         </div>

@@ -33,18 +33,18 @@ const HomePage = () => {
     const classes = {nameClass:"",emailClass:"",messageClass:""};
     const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (!formValues.name) {
-      err.nameErr = "Name field can't be empty";
+      err.nameErr = "Name field can&apos;t be empty";
       classes.nameClass = "border-red"
     }
     if (!formValues.email) {
-      err.emailErr = "email field can't be empty";
+      err.emailErr = "email field can&apos;t be empty";
       classes.emailClass = "border-red"
     } else if (!regex.test(formValues.email)) {
       err.emailErr = "invalid email";
       classes.emailClass = "border-red"
     }
     if (!formValues.message) {
-      err.messageErr = "message field can't be empty";
+      err.messageErr = "message field can&apos;t be empty";
       classes.messageClass = "border-red"
     } 
     setFormClass(classes);
